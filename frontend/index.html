@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <style>
+    body {
+  font-family: 'Inter', sans-serif;
+}
+h1 {
+  font-family: 'Fraunces', serif;
+}
+    @font-face {
+      font-family: 'Inter';
+      src: url('/fonts/Inter_18pt-Regular.ttf') format('truetype');
+      font-weight: 400;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Inter';
+      src: url('/fonts/Inter_18pt-SemiBold.ttf') format('truetype');
+      font-weight: 600;
+      font-display: swap;
+    }
+  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChatalystArcade</title>
+  <!-- Tailwind via CDN keeps the hackathon build simple; swap for a real
+       Tailwind build step (postcss + tailwind.config.js) once things settle. -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
