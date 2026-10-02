@@ -1,4 +1,4 @@
-# Mindora 🧠✨
+# ChatalystArcade 🧠🎮
 > **MedVision Ideathon 2026 Project**  
 > An AI-driven digital mental health and psychological support platform providing 24/7 CBT interventions, grounded RAG psychoeducation, and interactive stress-mitigation mini-games.
 
@@ -17,7 +17,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️️ Tech Stack
 
 - **Frontend:** React, Vite, Tailwind CSS, Lucide React
 - **Backend:** FastAPI (Python), SQLAlchemy, SQLite
